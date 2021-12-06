@@ -103,7 +103,3 @@ En route to Starbase Regula I on a routine mission, your starship encounters a p
 ---
 
 *Copyright 2019, General Assembly Space. Licensed under [CC-BY-NC-SA, 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)*
-
----
-
-*Copyright 2018, General Assembly Space. Licensed under [CC-BY-NC-SA, 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)*
