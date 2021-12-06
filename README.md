@@ -72,11 +72,38 @@ En route to Starbase Regula I on a routine mission, your starship encounters a p
 
 1. Using a `delete` route, wire up a button that deletes _all_ data at once!
 
+## Edit Route
+
+> Our five new scientists have been doing well, but it seems the previous five are ready to jump back into action! Let's expand the morning's app so that we can just update the scientists.
+
+1. Create an `edit` route in your `server.js`
+1. Create an `edit.ejs` file and fill it with a `form` to edit data
+1. Add a link to the `edit` route on your `index.ejs` onto all the scientists
+
+## Put Route 
+
+1. Create a `put` route in your `server.js`
+1. Make sure the `form` in your `edit.ejs` file has the appropriate method and action 
+1. Make it so that after updating the data, the route also redirects to the `index` page
+1. Update your 5 scientists!
+
+## Hungry for More
+
+1. If you didn't do this morning's hungry for more options, do those first then continue below
+1. The show pages of each scientist should have a link to the edit page
+1. The edit page should have a delete button which will delete the specified item
+1. If you didn't this morning, create categories for the different types of life. For example, store "Plants" and beneath that, "Flowers", and then individual entries. Then be able to edit the names of the categories
+1. Create a copy button that duplicates an entry and then goes directly to the edit page
+1. Enter images for each item and display them on the homepage. _(Hint: you can use static assets.)_
+
 ### Hungrier for Even More
 
-1. Create a show page/route for each scientist and link to them from the index page
-1. Create categories for the different types of life. For example, store "Plants" and beneath that, "Flowers", and then individual entries.
-1. Add a "verified" flag to certain entries and prevent them from being deleted. After all, as a senior Exobiologist _you_ know what you're looking at!
+1. Use [taxonomic rank](https://en.wikipedia.org/wiki/Taxonomic_rank) to order your items in a drill-down manner. Be sure your data objects reflects this hierarchically.
+
+---
+
+*Copyright 2019, General Assembly Space. Licensed under [CC-BY-NC-SA, 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)*
+
 ---
 
 *Copyright 2018, General Assembly Space. Licensed under [CC-BY-NC-SA, 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)*
